@@ -12,6 +12,7 @@ public class Day_3_Methods_static {
 	public static void fun()//Method Declaration
 	{
 		 System.out.println("sample static method");//Method Definition
+		 
 	}
 	public  void fun1()//Method Declaration
 	{
@@ -21,6 +22,8 @@ public static void main(String[] args) {
 	Day_3_Methods_static a=new Day_3_Methods_static();
 	fun();//method calling
 	a.fun1();//method calling
+	
+	
 	
 }
 }

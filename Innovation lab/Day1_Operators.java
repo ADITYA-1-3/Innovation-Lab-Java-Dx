@@ -87,14 +87,54 @@ public class Day1_Operators {
 		//Signed right shift
 		//Unsigned right shift 
 		//Signed left shift 
-		//Unsignd left shift     */
+		//Unsignd left shift     
 		
 		
 		//*****************************
 		//Ternary Operator
 		
 String result=((a>b)&&(a>c))?"A is Greater":((b>a)&&(b>c))?"B is greater":"C is greatest";
-		System.out.println(result);
+		System.out.println(result); 
+		
+		
+		System.out.println(45>>2); 
+		
+		
+		
+		//*******************************
+		//Unary Operator
+		
+		int num=+88; //unary plus
+		int num1=-88; //unary minus
+		
+		//increment operator
+		++a; // pre-increment  a=a+1
+		System.out.println(a);
+		a++; //post-increment
+		System.out.println(a);
+		
+		//decrement operator
+		--b; //pre-decrement
+		System.out.println(b);
+		b--; //post-decrement
+		System.out.println(b);  */
+		//a=100
+		
+		System.out.println(a++);// 100  a=101
+		System.out.println(a-1);// 100  a=101
+		System.out.println(a+1);// 101  
+		System.out.println(++a);// 102
+		System.out.println(++a);// 103
+		System.out.println(a);//   103
+		System.out.println(--a);// 102
+		System.out.println(a--);// 102
+		System.out.println(--a);// 100
+		
+		
+		
+		
+		
+		
 		
 		
 		
